@@ -1,0 +1,72 @@
+ body{
+    background-color: white;
+}
+
+table{
+    width: 75%;
+    margin:40px auto;
+    background-color:white;
+}
+
+table.list{
+    text-align: center;
+    width : 100%;
+}
+
+td{
+    border : 1px solid;   
+    text-align :left;
+    padding: 8px 15px;
+}
+
+tr:nth-child(even), table.list thread> tr{
+    background-color: aliceblue;
+}
+
+input[ type ="text"]{
+    width : 70%;
+    padding : 12px 20px;
+    margin : 8px;
+    display: inline-block;
+    border:1px solid;
+    border-radius: 4px; 
+}
+
+input[ type ="submit"], input[type ="reset"]{
+    background: #eee;
+    padding : 6px   12px;
+    margin : 15px 0 10px;
+    display: inline-block;
+    border: none;
+    border-radius: 30px; 
+    font-size:1rem;
+    cursor : pointer;
+    outline: none;
+}
+
+
+input[ type ="submit"]:hover{
+    background-color :black;
+}
+
+input[ type ="reset"]:hover{
+    background-color :black;
+}
+
+
+button{
+    background: #eee;
+    padding : 6px   12px;
+    margin : 15px 0 10px;
+    display: inline-block;
+    border: none;
+    border-radius: 30px; 
+    font-size: 1rem;
+    cursor : pointer;
+    outline: none;
+}
+
+button:hover{
+    color: white;
+    background: black ;
+} 
